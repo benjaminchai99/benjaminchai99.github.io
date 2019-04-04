@@ -1,0 +1,146 @@
+body {
+  padding-top: 56px;
+
+}
+
+.helpLogo{
+	margin:0;
+	float:left;
+}
+
+.imgad{width:420px; height:60px; text-align:center;}
+
+@media (max-width:450px)
+{
+	.imgad{width:100%;height:auto;}
+}
+
+/*
+@media (max-width:992px){
+
+}
+@media (max-width:768px){
+
+}
+@media (max-width:576px){
+
+}
+*/
+
+#gallery{position:relative;}
+.figure1{position: absolute;
+left:70px;
+top: 100px;
+text-align: center;
+opacity: .25;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+#gallery ul{width:100px;
+list-style-type:none;
+padding: 0;}
+#gallery li{display: inline;
+float: left;
+padding: 5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+#gallery span{position: absolute;
+left:-1500px;
+opacity:0;
+transition: opacity 3s ease-in-out;}
+#gallery a:hover span{position:absolute;
+top:100px;
+left:70px;
+text-align: center;
+opacity: 1;}
+
+.dropdown-menu a:active{
+    background-color:red;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-item{
+  padding-left: 10px;
+}
+
+.img1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.top_contain{
+	width:100%;
+	height:200px;
+	background-image:url("pic/NewsEvents/courses_header.png");
+	background-repeat:no-repeat;
+	background-position:50% 36%;
+	background-size:cover;
+  border-bottom: 2px solid white;
+}
+
+.top_contain h1{
+	padding-top:60px;
+	display:block;
+	text-align: center;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 64px;
+	margin:0;
+  text-shadow: 3px 3px black;
+  color: #FFFFFF;
+}
+
+.figureback {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin: 0!important;
+}
+
+.fixed-wrapper {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#fixedback {
+  background-image: url('pic/NewsEvents/figureback.jpg');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+#fixedback h1 {
+  font-size: 250%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+  top: 25%;
+  text-align: center;
+  color: #ffffff;
+  position:relative;
+}
+
+iframe{
+  width: 100%;
+}
+
+footer p{
+  float:right;
+}
+
+.footer{
+  width: 100%;
+  position: fixed;
+  padding-right: 0;
+}

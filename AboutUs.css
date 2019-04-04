@@ -1,0 +1,212 @@
+/***********************
+#####CONTENT OF FILES####
+*
+*#Basic Typography
+*#Mission Vision CSS
+*#Chancellery CSS
+*#Contact Us CSS
+*#Mobile media CSS
+*
+*
+*/
+/************************/
+/****Basic Typography****/
+/************************/
+
+body,footer,header,main,h1,h2,h3,h4,h5,h6{margin:0;}
+body{padding-top:56px;}
+
+details[open] summary ~ * {
+  animation: sweep 0.3s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity:0; margin-top: -10px}
+  50%  {opacity: 0.5; margin-top: -5px}
+  100%  {opacity: 1; margin-top: 0px}
+}
+
+
+
+/************************/
+/****Mission Vission****/
+/************************/
+#About_Us{
+	color:red;
+	font-family: "sans-serif";
+	text-shadow: 3px 3px #7c7c7c;
+}
+
+
+.top_contain_AboutUs{
+	width:100%;
+	height:95vh;
+	background-image:url("pic/AboutUs/AboutUs_bla.jpg");
+	background-repeat:no-repeat;
+	background-position:50% 36%;
+	background-size:cover;
+	z-index:-1;
+
+
+}
+
+.top_contain_AboutUs h1{
+	margin:0;
+	padding:0;
+	padding-top:10%;
+	display:block;
+	text-align: center;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 64px;
+	
+}
+
+#mv-bgimage{
+	width:100%;
+	height:100%;
+	background-image:url('pic/AboutUs/AboutUsBg.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:30%	70%;
+	z-index:-1;
+		
+}
+
+#mv-bgimage2{
+	width:100%;
+	height:100%;
+	background-image:url('pic/AboutUs/AboutUsBg2.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:30%	70%;
+	z-index:-1;
+		
+}
+
+#mv-bgimage3{
+	width:100%;
+	height:100%;
+	background-image:url('pic/AboutUs/AboutUsBg3.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:30%	70%;
+	z-index:-1;
+		
+}
+.bx-shdw{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+/************************/
+/****Chancellor****/
+/************************/
+#wrapper-chancellor{
+	width:100%;
+	height:65vh;
+	text-align:center;
+	padding-top:8%;
+	background-color:white;
+	background-image:url("pic/AboutUs/studentHatThrow.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	z-index:-1;
+}
+
+#wrapper-chancellor h1{
+	font-size:3.25em;
+	font-weight:bold;
+	display:block;
+	text-shadow:3px 2px #7c7c7c;
+}
+
+/************************/
+/****Contact Us****/
+/************************/
+.top_contain_ContactUs{
+	width:100%;
+	height:50vh;
+	background-image:url("pic/AboutUs/ContactUsbg.jpg");
+	background-repeat:no-repeat;
+	background-position:50% 70%;
+	background-size:cover;
+	z-index:-1;
+}
+
+.top_contain_ContactUs h1{
+	margin:0;
+	padding:0;
+	padding-top:5%;
+	display:block;
+	text-align: center;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 64px;
+	color:#FFFFFF;
+	text-shadow:2px 4px #7c7c7c;
+}
+
+.AboutUs-content{
+	z-index:2;
+	margin-top:-5%;
+	margin-bottom:4%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.map-container{
+	z-index:2;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.map-style{
+	width:100%;
+	margin:0;
+	margin-top:0.5em;
+	border-style:none;
+	overflow:hidden;
+}
+
+.hr-light{border-color:#f8f9fa;}
+
+.bgimg-jumbotron{
+	width:100%;
+	height:auto;
+	background-image:url("pic/AboutUs/student-writing-on-paper.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	/*z-index:-1;*/
+}
+
+@media (max-width: 1199.98px) { 
+	.top_contain_AboutUs h1{padding-top:14%;}
+	#wrapper-chancellor{padding-top:12%}
+}
+
+@media (max-width: 991.98px) {  
+	.top_contain_AboutUs h1{padding-top:17%;}
+	#wrapper-chancellor{padding-top:15%}
+	.top_contain_ContactUs h1{padding-top:7%;}
+	.AboutUs-content{margin-top:-6%;}
+
+}
+
+@media (max-width: 767.98px) {  
+	.top_contain_AboutUs h1{padding-top:22%;}
+	#wrapper-chancellor{padding-top:18%}
+	.top_contain_ContactUs h1{padding-top:12%;}
+	.AboutUs-content{margin-top:-7%;}
+}
+
+@media (max-width: 575.98px) {  
+	.top_contain_AboutUs h1{padding-top:28%;}
+	#wrapper-chancellor{padding-top:25%}
+	.top_contain_ContactUs h1{padding-top:20%;}
+}
+
+
+
+
+
+

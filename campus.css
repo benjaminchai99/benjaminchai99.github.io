@@ -1,0 +1,523 @@
+
+.campus-header h1{
+	color: white;
+	text-align: center;
+	font-size: 10vh;
+}
+/*----------------------subang 2----------------------*/
+.subang2 *{
+	margin: 0;
+	padding: 0;
+}
+.block_s_1{
+	background-image: url(pic/campusPic/ELM/elm_head.jpg);
+	background-size: cover;
+	height: 30vh;
+	text-align: center;
+	padding: 10vh;
+}
+.block_s_1 h1{
+	color: white;
+	font-size: 10vh;
+	font-family: sans-serif;
+
+}
+
+.block_s_2{
+	text-align: center;
+	padding: 12vh;
+
+}
+.block_s_2 h1{
+	font-size: 7vh;
+}
+
+.block_s_3 .overview{
+	background: rgb(80,80,80);
+	height: 60vh;
+	padding: 5vh;
+	margin: 2vh;
+	text-align: justify;
+}
+.overview hr{
+	border: solid 1px red;
+}
+.overview{
+	color: white;
+}
+.block_s_3 .desc{
+	background: rgb(255,255,255);
+	padding: 5vh 2vh 5vh 2vh;
+	margin: 15vh 0 0 0;
+	height: 60vh;
+	text-align: justify;
+}
+.block_s_3 .picture{
+	background-image: url(pic/campusPic/ELM/subang_green_2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 2vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 60vh;
+}
+
+
+
+
+.block_s_4{
+	padding: 5vh 2vh 10vh 2vh;
+}
+.block_s_4 .picture{
+	background-image: url(pic/campusPic/ELM/subang_green.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 50vh;
+}
+.block_s_4 .desc{
+	padding: 5vh 5vh 10vh 5vh;
+	text-align: justify;
+}
+.block_s_4 .desc h1{
+	color:rgb(218,165,32);
+}
+
+
+
+.block_s_5{
+	padding: 5vh 2vh 5vh 2vh;
+	background-color: rgb(100,100,100);
+	color: white;
+}
+
+.block_s_5 .picture{
+	background-image: url(pic/campusPic/ELM/subang_green_2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 50vh;
+}
+.block_s_5 .desc{
+	padding: 10vh 5vh 10vh 5vh;
+	text-align: justify;
+}
+.block_s_5 hr{
+	border: solid 1px rgb(150,150,150);
+}
+
+
+
+.block_s_6{
+	padding: 0vh 5vh 5vh 5vh;
+	text-align: center;
+	background-color: rgb(255,255,255);
+
+}
+.block_s_6 h1{
+	margin-bottom: 5vh;
+	color: black;
+}
+.block_s_6 .r{
+
+	text-align: center;
+	align-items: center;
+	padding-left: 0vh;
+}
+.block_s_6 h1{
+	margin: 5vh 0vh 5vh 0vh;
+}
+
+
+
+.block_s_7{
+	margin-bottom: 10vh;
+}
+.block_s_7 .card-header, .block_s_7 .card-body{
+	padding: 1vh;
+}
+.block_s_7 h1{
+	margin: 10vh 0vh 0vh 0vh;
+}
+
+.acco{
+	margin: 5vh 18vh 0vh 18vh;
+}
+.wer{
+	text-align: center;
+}
+.block_s_6 .card{
+	display: inline-block;
+}
+
+.map-header{
+	text-align: center;
+	padding-bottom: 2vh;
+}
+
+
+
+
+
+
+
+
+
+/*------------end of subang2---------*/
+
+ #map {
+ 	height: 60vh;  /* The height is 400 pixels */
+ 	width: auto;  /* The width is the width of the web page */
+ 	padding: 0;
+ 	margin: 0;
+  }
+
+/*-------------------------Damansara------------------------------------*/
+.damansara{
+
+}
+/* start of block 1*/
+.block_d_1{
+	background-image: url(pic/campusPic/ELM/elm_head.jpg);
+	background-size: cover;
+	height: 30vh;
+	text-align: center;
+	padding: 10vh;
+
+}
+
+.Damansara .block_d_1 h1{
+	color: white;
+	font-size: 15vh;
+	font-family: sans-serif;
+}
+/*end of block 1*/
+
+
+/*start of block 2*/
+.block_d_2 {
+	text-align: center;
+	margin: 10vh 0vh 10vh 0vh;
+}
+/*end of block 2*/
+
+
+
+/* start of block 3 */
+.block_d_3{
+	height: auto;
+	margin-bottom: 10vh;
+}
+
+.block_d_3 .part1{
+	background: rgb(80,80,80);
+	height: 60vh;
+}
+.block_d_3 .part2{
+	padding: 2vh 5vh 2vh 5vh;
+	height: 60vh;
+	overflow: auto;
+
+}
+.block_d_3 .part3{
+	background: rgb(80,80,80);
+	height: 60vh;
+}
+.block_d_3 .part2 p{
+		text-align: justify;
+
+		height: auto;
+}
+.block_d_3 .part4{
+	background: rgb(130,130,130);
+	height: 60vh;
+
+}
+/* end of block 3 */
+
+/* block 3 b*/
+.wisma .part1{
+	background-image: url(pic/campusPic/ELM/campus_4.jpg);
+	background-size: cover;
+}
+.wisma .part3{
+	background-image: url(pic/campusPic/ELM/elm_7.jpg);
+	background-size: cover;
+}
+.wisma .part4{
+	background-image: url(pic/campusPic/ELM/elm_2.jpg);
+	background-size: cover;
+}
+.elm .part1{
+	background-image: url(pic/campusPic/ELM/elm_long.jpg);
+	background-size: cover;
+}
+
+.elm .part3{
+	background-image: url(pic/campusPic/ELM/elm_l.png);
+	background-size: cover;
+}
+.elm .part4{
+	background-image: url(pic/campusPic/ELM/elm_f.jpg);
+	background-size: cover;
+
+}
+
+
+/* block 3 c*/
+
+.academy .part1{
+	background-image: url(pic/campusPic/ELM/elm_9.jpg);
+	background-size: cover;
+}
+.academy .part3{
+	background-image: url(pic/campusPic/ELM/academy_0.jpg);
+	background-size: cover;
+}
+
+/*block 4*/
+.block_d_4{
+	width: auto;
+	height: 60vh;
+	margin: 0;
+	padding: 0;
+}
+
+.map{
+	height: 80vh;
+	/*background: rgb(80,80,80);*/
+
+	padding: 5vh 3vh 10vh 3vh;
+	text-align: center;
+}
+.map h1{
+	color: black;
+
+
+}
+
+.map #map{
+	margin-top:5vh;
+}
+
+
+
+
+
+
+
+/* ------------------------- campus --------------------------------*/
+.block_c_1{
+	height: 55vh;
+	background-image: url(pic/campusPic/ELM/campus_head2_black.jpg)
+}
+.block_c_1 h1{
+	text-align: center;
+	color: white;
+	margin-top: 10vh;
+	font-size: 10vh;
+}
+
+
+.myCard{
+	text-align: center;
+	margin-top: -25vh;
+
+	height: 50vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	z-index: 100;
+	background-color: white;
+	padding: 0;
+}
+.myCard .card-image{
+	height: 60%;
+	background-size: cover;
+}
+.myCard .text-area{
+	height: 40%;
+	background-color: white;
+}
+.myCard .text-area p{
+	margin-bottom: 3vh;
+}
+
+/*change the card image here*/
+/* wisma is actualy subang2, i messed up during development*/
+.wisma .myCard .card-image{
+	background-image: url(pic/campusPic/ELM/subang2_hori.jpg);
+}
+.damansara .myCard .card-image{
+	background-image: url(pic/campusPic/ELM/wisma_01.jpg);
+}
+.academy .myCard .card-image{
+	background-image: url(pic/campusPic/ELM/academy_0_small.jpg);
+}
+
+
+/*block 3*/
+.block_c_3{
+	margin-top: 15vh;
+	text-align: justify;
+}
+
+/*blocl 4*/
+.block_c_4{
+	margin-top: 10vh;
+	text-align: justify;
+
+}
+
+.block_c_4 .part2{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 3vh;
+	margin: 5vh 0 5vh 0;
+}
+/*end of block 4*/
+
+
+/*start of block 5*/
+.block_c_5{
+	background: rgb(80,80,80);
+	margin-top: 5vh;
+	text-align: center;
+}
+.block_c_5 h3{
+	margin-top: 7vh;
+	color: white;
+
+}
+.block_c_5 .part1{
+	margin-top: 5vh;
+	text-align: justify;
+	color: white;
+
+}
+.block_c_5 .part1 div{
+	margin-bottom: 0vh;
+}
+
+.block_c_5 .part1 h4{
+	text-align: center;
+}
+
+.block_c_5 .part1 hr{
+	border: solid 1px rgb(150,150,150);
+}
+.block_c_5 .part1 div div{
+	border: solid 1px rgb(150,150,150);
+	margin: 1vh;
+	padding: 2vh;
+
+}
+
+.block_c_5 .part2 div{
+	text-align: justify;
+	color:white;
+}
+
+.block_c_5 .part2 h5{
+	margin-top: 10vh;
+}
+
+.block_c_5 hr{
+	border: solid 0.5px rgb(200,200,200);
+}
+
+/*end of block 5*/
+
+
+
+/**/
+
+
+
+
+
+@media only screen and (max-width: 992px){
+
+	body{
+		max-width: 100%;
+
+	}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	/*subang 2*/
+	.subang2{
+		margin-right: -10vh;
+	}
+	.block_s_6 .r{
+		padding: 0;
+		margin: 0;
+	}
+	.block_s_3 .desc{
+		padding: 0vh 5vh 5vh 5vh;
+		margin: 0;
+	}
+	.block_s_3 .overview{
+		height: auto;
+		margin: 0;
+	}
+	.acco{
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	body{
+		max-width: 100%;
+	}
+
+	.map h1{
+		margin-top: 10vh;
+	}
+	.map{
+		margin-bottom: 20vh;
+	}
+
+	.block_d_3 .part2{
+		height: auto;
+	}
+
+	/*damansara*/
+	.wisma .part3, .wisma .part4, .elm .part3, .elm .part4, .academy .part4, .academy .part3{
+		display: none;
+	}
+
+	.wisma .part2, .elm .part2, .academy.part2{
+		height: 80vh;
+	}
+
+
+
+	/* start of campus*/
+	.block_c_1{
+		height: 40vh;
+		margin-bottom: -30vh;
+	}
+	.myCard{
+		margin-top: 15vh;
+		height: 55vh;;
+	}
+	/*end of campus*/
+
+
+	/*subang 2*/
+	.subang2{
+		margin-right: -10vh;
+	}
+	.block_s_6 .r{
+		padding: 0;
+		margin: 0;
+	}
+	.block_s_3 .desc{
+		padding: 0vh 5vh 5vh 5vh;
+		margin: 0;
+	}
+	.block_s_3 .overview{
+		height: auto;
+		margin: 0;
+	}
+}

@@ -1,0 +1,126 @@
+body, html{
+  margin:0;
+}
+
+
+.btn{
+  margin:1rem;
+  min-width: 100%;
+}
+
+.box_shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.page-header {
+  background-image:url("pic/diploma_IT/IT_hardware_blue.jpg");
+	background-repeat:no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position:50% 36%;
+}
+.page-caption {
+  padding-top: 170px;
+  padding-bottom: 174px;
+}
+.page-title { font-size: 46px;
+  line-height: 1;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+}
+
+h5{
+  font-size: 130%;
+}
+
+.prog_details p{
+  padding-left: 1rem;
+}
+
+.card{
+  padding:1rem;
+}
+
+.fa-angle-right:before{
+  transform: rotateZ(0);
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+}
+
+.btn:active .fa-angle-right{
+  transform: rotateZ(-270deg);
+  -webkit-transform: rotate(-270deg);
+  -moz-transform: rotate(-270deg);
+}
+
+
+
+/*Media Query*/
+@media (max-width: 992px){
+
+}
+
+@media (max-width: 768px){
+  h1,h2,h3,h4,h5,h6{
+    font-size:90%;
+  }
+
+  .button_box{
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 576px){
+  h1,h2,h3,h4,h5,h6{
+    font-size:85%;
+  }
+  .button_box{
+    padding-top: 0px;
+  }
+}
+/*Fixing background image*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin: 0!important;
+}
+
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('pic/diploma_IT/Ipadzai_bla.jpg');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+footer p{
+  float:right;
+}
+
+.footer{
+  width: 100%;
+  position: fixed;
+  padding-right: 0;
+}
+.imgad{width:420px; height:60px; text-align:center;}
+
+@media (max-width:450px)
+{
+	.imgad{width:100%;height:60px;}
+}
